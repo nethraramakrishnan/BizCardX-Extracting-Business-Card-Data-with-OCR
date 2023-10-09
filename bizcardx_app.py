@@ -34,7 +34,7 @@ selected = option_menu(None, ["Home","Upload & Extract","Modify"],
 # CONNECTING WITH MYSQL DATABASE
 mydb = sql.connect(host="localhost",
                    user="root",
-                   password="Test1234",
+                   password="password",
                    database= "bizcard"
                   )
 mycursor = mydb.cursor(buffered=True)
